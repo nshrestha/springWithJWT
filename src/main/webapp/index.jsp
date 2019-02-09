@@ -35,7 +35,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-table/1.0.0/ng-table.js"></script>
 
 </head>
-<body ng-controller="MainController">
+<body>
 
 <div>
     <ng-view></ng-view>

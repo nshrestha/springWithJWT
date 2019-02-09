@@ -12,20 +12,20 @@
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                         <input type="text" class="form-control" ng-model="login.loginData.userName" id="userName"
                                placeholder="Enter user name" name="userName" required/><br>
-                        <span style="color:red" ng-show="myForm.userId.$dirty && myForm.userName.$invalid">
-                            <span ng-show="myForm.userName.$error.required">UserName is required.</span>
-                        </span>
+                        <%--<span style="color:red" ng-show="myForm.userId.$dirty && myForm.userName.$invalid">--%>
+                            <%--<span ng-show="myForm.userName.$error.required">UserName is required.</span>--%>
+                        <%--</span>--%>
                     </div>
 
                     <div style="margin-bottom: 25px" class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                         <input type="password" class="form-control" id="pwd" ng-model="login.loginData.password"
                         placeholder="Enter password" name="password" required/><br>
-                        <span style="color:red" ng-show="myForm.pwd.$dirty && myForm.pwd.$invalid">
-                             <span ng-show="myForm.pwd.$error.required">Password required</span>
-                        </span>
+                        <%--<span style="color:red" ng-show="myForm.pwd.$dirty && myForm.pwd.$invalid">--%>
+                             <%--<span ng-show="myForm.pwd.$error.required">Password required</span>--%>
+                        <%--</span>--%>
                     </div>
-                    <div ng-hide ="login.valid">
+                    <div ng-show ="login.valid">
                         <span style="color:red">{{login.errormsg}}</span>
                     </div>
                 </form>
