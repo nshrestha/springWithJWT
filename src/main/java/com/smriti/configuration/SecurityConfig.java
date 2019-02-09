@@ -20,7 +20,7 @@ package com.smriti.configuration;//package com.users.configuration;
 //@EnableWebSecurity
 //public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //    @Override
-//    protected void configure(HttpSecurity http) throws Exception {
+//    protected void configure(HttpSecurity http) throws ExceptionHandler {
 ////        http.csrf().disable();
 //        http.cors().and();
 //    }

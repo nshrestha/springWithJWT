@@ -30,8 +30,8 @@ public class User implements Serializable {
     @Column(name = "email_address",length = 200)
     private String emailAddress;
 
-    @Column(name = "active")
-    private Character active;
+    @Column(name = "status")
+    private Character status;
 
     @Column(name = "created_date")
     @Temporal(TemporalType.TIMESTAMP)

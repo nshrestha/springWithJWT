@@ -27,7 +27,7 @@
     <%--localStorage--%>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/ngstorage/0.3.6/ngStorage.min.js"></script>
     <%--module--%>
-    <script type="text/javascript" src="app-module.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <%--for photo upload--%>
     <script type="text/javascript" src="static/angular-base64-upload.js"></script>
     <%--ngTable--%>
@@ -41,33 +41,14 @@
     <ng-view></ng-view>
 </div>
 <%--module--%>
-<script type="text/javascript" src="app-module.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
 <%--Controllers--%>
-<script type="text/javascript" src="modules/adminsetup/controller/MainController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/LoginController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/SignupController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/AdminpageController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/NewAdminController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/ManageAdminController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/EditModalController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/NavigationController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/UserLogController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/UsersListController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/ActiveUsersListController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/TotalUploadsController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/AdminPhotoModalController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/UserUploadsController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/UploadsPerDayController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/ProfileController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/FollowersListController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/FollowingListController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/CommentsController.js"></script>
-<script type="text/javascript" src="modules/adminsetup/controller/LikesListController.js"></script>
+<script type="text/javascript" src="pages/loginSetup/service/LoginService.js"></script>
+<script type="text/javascript" src="pages/loginSetup/controller/LoginController.js"></script>
 
 <%--Services--%>
-<script type="text/javascript" src="modules/adminsetup/service/LoginService.js"></script>
-<script type="text/javascript" src="modules/adminsetup/service/SignupService.js"></script>
-<script type="text/javascript" src="modules/adminsetup/service/HttpService.js"></script>
-<script type="text/javascript" src="modules/adminsetup/service/NewAdminService.js"></script>
+<script src="<c:url value='/commons/HttpService.js' />"></script>
+
 </body>
 </html>
