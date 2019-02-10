@@ -27,7 +27,11 @@
 
         vm.resetAlertMessages = resetAlertMessages;
 
-        vm.fetchAllUsers = fetchAllUsers;
+        vm.openModal = openModal;
+
+        vm.resetAlertMessages();
+
+        vm.resetAction();
 
         function save() {
             UserSetupService.save(vm.userSetupData).then(
@@ -59,7 +63,7 @@
 
         function openModal() {
             var modalInstance = $uibModal.open({
-                size: 'sm',
+                size: 'lg',
                 templateUrl: 'pages/userSetup/modal/userDetails.jsp',
                 controller: 'UserDetailModalController as detailCtrl',
             });

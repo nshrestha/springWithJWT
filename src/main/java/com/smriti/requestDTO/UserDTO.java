@@ -15,5 +15,5 @@ public class UserDTO {
 
     private String emailAddress;
 
-    private Character status;
+    private String status;
 }

@@ -11,19 +11,19 @@ public class UserUtils {
         final Integer NAME_INDEX = 0;
         final Integer EMAIL_ADDRESS_INDEX = 1;
         final Integer USERNAME_INDEX = 2;
-        final Integer STATUS = 3;
+        final Integer STATUS_INDEX = 3;
 
         List<UserDTO> userDTOS = new ArrayList<>();
 
-        objects.forEach(o -> {
+        for (Object[] o : objects) {
             UserDTO userDTO = new UserDTO();
             userDTO.setName(o[NAME_INDEX].toString());
             userDTO.setEmailAddress(o[EMAIL_ADDRESS_INDEX].toString());
             userDTO.setUsername(o[USERNAME_INDEX].toString());
-            userDTO.setStatus(o[STATUS].toString().charAt(0));
+            userDTO.setStatus(o[STATUS_INDEX].toString().equalsIgnoreCase("Y") ? "Active" : "Inactive");
 
             userDTOS.add(userDTO);
-        });
+        }
         return userDTOS;
     }
 }

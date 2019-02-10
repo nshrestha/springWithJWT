@@ -7,61 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fc2b556-642e-4fbf-a819-185d15ae3757" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/OpenSans-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/OpenSans-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/OpenSans-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/flexslider-icon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/flexslider-icon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/flexslider-icon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/materialdesignicons-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/materialdesignicons-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/materialdesignicons-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/materialdesignicons-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/slick.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/slick.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/slick.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/interceptor/TokenInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/UserDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/MapperUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/UserQueryCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/UserUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/materialdesignicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/flexslider-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/materialdesignicons-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/slick.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/service/HttpService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/configuration/EmailConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/commons/HttpService.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/css/comments.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/app.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/NewAdminController.js" afterPath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/service/SignupService.js" afterPath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/service/UserSetupService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springWithJWT.iml" afterPath="$PROJECT_DIR$/springWithJWT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/configuration/AppConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/configuration/AppConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/configuration/JPAConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/configuration/JPAConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/constants/WebResourceKeyConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/constants/WebResourceKeyConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/entities/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ErrorResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ErrorResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ExceptionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/utility/JWTTokenUtility.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/JWTTokenUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/utility/LoginUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/LoginUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js" afterPath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/loginPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/loginPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/service/LoginService.js" afterPath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/service/LoginService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/UserDTO.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/UserDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/utility/UserUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/UserUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js" afterPath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/userDetails.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/userDetails.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,73 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="addUser.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="167" column="11" lean-forward="true" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserSetupService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/service/UserSetupService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserSetupController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserQueryCreator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/UserQueryCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/UserUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="275">
+              <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,14 +41,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java">
+      <file leaf-file-name="UserDetailModalController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/UserDetailModalController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cache.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/cache.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,9 +77,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
-        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -184,12 +97,14 @@
       <find>${pom.version}</find>
       <find>project.version</find>
       <find>afterPropertiesSet</find>
-      <find>adminCtrl</find>
       <find>adminSetupData</find>
       <find>buildNativeEntityManagerFactory</find>
+      <find>adminCtrl</find>
+      <find>right</find>
     </findStrings>
     <replaceStrings>
       <replace>userSetupData</replace>
+      <replace>detailCtrl</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -203,9 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapps/app.js" />
-        <option value="$PROJECT_DIR$/src/main/java/configuration/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smriti/AppConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/configuration/AppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/configuration/EmailConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/LoginRequestDTO.java" />
@@ -216,16 +128,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/responseDTO/LoginResponseDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/configuration/RootConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/UnauthorizedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/entities/ModelBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/controller/LoginController.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.1.RELEASE/spring-boot-autoconfigure-1.5.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jooq/JooqAutoConfiguration.class" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/configuration/JPAConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/interceptor/TokenInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/configuration/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ErrorResponse.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/commons/HttpService.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/HttpService.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/service/HttpService.js" />
@@ -234,24 +143,32 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/service/LoginService.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/UserDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/utility/MapperUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smriti/constants/WebResourceKeyConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/utility/LoginUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/loginPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/app.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/tabs/userTab.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/service/UserSetupService.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/utility/UserQueryCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/NoContentFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ErrorResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smriti/constants/WebResourceKeyConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/UserDetailModalController.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/UserDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smriti/utility/UserUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/userDetails.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/cache.xml" />
       </list>
     </option>
   </component>
@@ -346,94 +263,35 @@
             <path>
               <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
               <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
               <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="smriti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="smriti" type="462c0819:PsiDirectoryNode" />
-              <item name="requestDTO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
               <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="smriti" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
               <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="smriti" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="userSetup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="userSetup" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springWithJWT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springWithJWT" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,7 +303,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;User&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;UserC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;inde&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;user&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/addUser.jsp&#10;Us&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/loginPage.jsp&#10;Log&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;app&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;Loginse&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/LoginServiceImpl.java&#10;UserSe&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;WR&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/constants/WebResourceKeyConstants.java&#10;app.js&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;Lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;JWT&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/utility/JWTTokenUtility.java&#10;index&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;Htt&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/commons/HttpService.js&#10;app.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;login&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/responseDTO/LoginResponseDTO.java&#10;LoginC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;toke&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/interceptor/TokenInterceptor.java&#10;po&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;pom&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;pom.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;ru&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/RuntimeException.java&#10;pom.x&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;JPA&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/JPAConfiguration.java" />
+    <property name="SearchEverywhereHistoryKey" value="pom.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;add&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/addUser.jsp&#10;index&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;WRK&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/constants/WebResourceKeyConstants.java&#10;User&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;UserC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;inde&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;user&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/addUser.jsp&#10;Us&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/loginPage.jsp&#10;Log&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;app&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;Loginse&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/LoginServiceImpl.java&#10;UserSe&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;WR&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/constants/WebResourceKeyConstants.java&#10;app.js&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;Lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;JWT&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/utility/JWTTokenUtility.java&#10;Htt&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/commons/HttpService.js&#10;app.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;login&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/responseDTO/LoginResponseDTO.java&#10;LoginC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;toke&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/interceptor/TokenInterceptor.java&#10;po&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;pom&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;ru&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/RuntimeException.java&#10;pom.x&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;JPA&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/JPAConfiguration.java" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -773,12 +631,12 @@
       <workItem from="1549707431338" duration="1690000" />
       <workItem from="1549709936314" duration="2631000" />
       <workItem from="1549719659878" duration="12627000" />
-      <workItem from="1549768755247" duration="7602000" />
+      <workItem from="1549768755247" duration="12458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40706000" />
+    <option name="totallyTimeSpent" value="45562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="32" width="1533" height="868" extended-state="6" />
@@ -794,9 +652,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32018209" sideWeight="0.49762067" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49762067" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1138088" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17147192" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -804,8 +662,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3353566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14871016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23997281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71016693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09245411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -862,60 +720,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java</url>
-          <line>24</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/UserDetailModalController.js</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="48" />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/UserDetailModalController.js</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/entities/ModelBase.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="472" column="21" lean-forward="false" selection-start-line="472" selection-start-column="21" selection-end-line="472" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springWithJWT.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.1.RELEASE/spring-boot-autoconfigure-1.5.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jooq/JooqAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="48" column="84" lean-forward="false" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractBeanFactoryAwareAdvisingPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -943,14 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="229" column="36" lean-forward="false" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,28 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ErrorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/UnauthorisedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/responseDTO/LoginResponseDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1049,16 +846,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/commons/HttpService.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/HttpService.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1083,28 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/MapperUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/constants/WebResourceKeyConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1124,24 +893,6 @@
           <folding>
             <marker date="1549772604466" expanded="false" signature="955:964" ph="..." />
             <marker date="1549772604466" expanded="false" signature="1627:1636" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1174,14 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1195,16 +938,6 @@
         <state relative-caret-position="-175305">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1224,30 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/service/UserSetupService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="167" column="11" lean-forward="true" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/UserQueryCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1256,31 +965,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ErrorResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/NoContentFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/exceptionHandler/UnauthorisedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/constants/WebResourceKeyConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/service/UserSetupService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/requestDTO/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="-553">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="52" column="86" lean-forward="false" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="65" column="27" lean-forward="true" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/userDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="74" column="44" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/addUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/UserUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="275">
+          <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/modal/UserDetailModalController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

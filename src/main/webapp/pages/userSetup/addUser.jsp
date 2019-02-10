@@ -28,12 +28,9 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="title-wrapper">
-                                <div>
-                                    <button type="button" class="btn btn-primary btn-sm"
-                                            ng-click="userCtrl.resetAction()">
-                                        Reset
-                                    </button>
-                                </div>
+                                <button type="button" class="btn btn-success pull-right"
+                                        style="height:30px;width:60px"
+                                        ng-click="userCtrl.resetAction()">Reset</button>
                                 <h4 class="title"> User Setup </h4>
                             </div>
                             <!-- rest of the form -->
@@ -165,4 +162,5 @@
     <span us-spinner="{radius:30 , width: 8 ,length:16}" spinner-key="spinner-1"></span>
 </form>
 
-<button type="button" ng-click = "userCtrl.fetchAllUsers()">s</button>
+<button type="button" class="btn btn-success"
+        ng-click = "userCtrl.openModal()"> List of users</button>
