@@ -35,6 +35,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void saveUser(UserDTO userDTO) {
+
         if (!Objects.isNull(cacheManager.getCache(CacheNameConstants.CACHE_NAME))) {
             cacheManager.getCache(CacheNameConstants.CACHE_NAME).clear();
         }

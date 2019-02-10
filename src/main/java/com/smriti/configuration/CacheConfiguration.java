@@ -28,4 +28,5 @@ public class CacheConfiguration {
 
         return ehCacheCacheManager;
     }
+
 }
