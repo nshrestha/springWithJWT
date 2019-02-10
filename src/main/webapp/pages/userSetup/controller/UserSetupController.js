@@ -62,6 +62,8 @@
         }
 
         function openModal() {
+            vm.resetAlertMessages();
+
             var modalInstance = $uibModal.open({
                 size: 'lg',
                 templateUrl: 'pages/userSetup/modal/userDetails.jsp',

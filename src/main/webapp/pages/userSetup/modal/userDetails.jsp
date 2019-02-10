@@ -51,9 +51,8 @@
             <div class="data-table">
                 <div class="data-table-wrapper">
 
-                    <table class="table table-bordered">
+                    <table class="table">
                         <thead>
-
                         <div class="data-table-header">
                             <span id="adminDetails">User Details</span>
                             <p class="data-table-count">Total Records: {{detailCtrl.users.length}}</p>
@@ -67,9 +66,7 @@
                             <th></th>
                         </tr>
                         </thead>
-                    </table>
 
-                    <table class="table table-bordered">
                         <tbody>
                         <tr ng-repeat="user in detailCtrl.users">
                             <td title="'S.N'">

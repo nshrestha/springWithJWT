@@ -1,8 +1,8 @@
 angular.module("adminModule").controller("LoginController", LoginController);
 
-LoginController.$inject = ['$location', 'LoginService', 'HttpService', '$localStorage'];
+LoginController.$inject = ['$location', 'LoginService', '$localStorage'];
 
-function LoginController($location, LoginService, HttpService, $localStorage) {
+function LoginController($location, LoginService, $localStorage) {
     var vm = this;
 
     vm.loginData = {
@@ -15,15 +15,11 @@ function LoginController($location, LoginService, HttpService, $localStorage) {
     vm.showErrorMessage = false;
 
     vm.loginUser = loginUser;
-    //
-    // if (!($localStorage.adminObj == null)) {
-    //     $location.path("/adminPage");
-    // }
 
     function loginUser() {
         LoginService.login(vm.loginData).then(
             (response) => {
-                $localStorage.tokenNo = response.token;
+                $localStorage.token = response.token;
                 $localStorage.userId = response.id;
 
                 $location.path("/userPage");

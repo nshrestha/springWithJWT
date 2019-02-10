@@ -20,7 +20,7 @@ import java.util.Properties;
 @EnableJpaRepositories(basePackages = "com.smriti.repository")
 @EnableTransactionManagement
 @PropertySource(value = {"classpath:application.properties"})
-public class JPAConfiguration {
+public class DataSourceConfiguration {
     @Resource
     private Environment environment;
 

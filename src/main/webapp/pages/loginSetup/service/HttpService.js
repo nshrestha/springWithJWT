@@ -7,8 +7,8 @@ function HttpService($http, $q, $localStorage, $location) {
 
     var vm = this;
     vm.url = $location.absUrl().split('#')[0];
-    vm.userId = ()=> $localStorage.currentUserId;
-    vm.queryString = ()=> "?token=" + encodeURIComponent($localStorage.token) + "&userId=" + vm.userId();
+    vm.userId = () => $localStorage.userId;
+    vm.queryString = () => "?token=" + encodeURIComponent($localStorage.token) + "&userId=" + vm.userId();
     vm.queryStringAppend = () => "token=" + encodeURIComponent($localStorage.token) + "&userId=" + vm.userId();
 
     return {
@@ -17,10 +17,10 @@ function HttpService($http, $q, $localStorage, $location) {
             return $http.get(vm.url + resourceURI +
                 vm.queryString())
                 .then(
-                    function (resp) {
+                    (resp) => {
                         return resp.data;
                     },
-                    function (err) {
+                    (err) => {
                         return $q.reject(err);
                     }
                 );
@@ -29,10 +29,10 @@ function HttpService($http, $q, $localStorage, $location) {
         post: function (resourceURI, data) {
             return $http.post(vm.url + resourceURI + vm.queryString(), data)
                 .then(
-                    function (resp) {
+                    (resp) => {
                         return resp.data;
                     },
-                    function (err) {
+                    (err) => {
                         return $q.reject(err);
                     }
                 );
