@@ -38,6 +38,7 @@ public class UserServiceImpl implements UserService {
         if (!Objects.isNull(cacheManager.getCache(CacheNameConstants.CACHE_NAME))) {
             cacheManager.getCache(CacheNameConstants.CACHE_NAME).clear();
         }
+
         User user = MapperUtility.map(userDTO, User.class);
         user.setPassword(BCrypt.hashpw(userDTO.getPassword(), BCrypt.gensalt()));
         userRepository.save(user);
