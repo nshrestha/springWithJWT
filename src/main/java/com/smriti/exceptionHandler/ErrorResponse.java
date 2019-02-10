@@ -16,11 +16,12 @@ public class ErrorResponse {
 
     }
 
-    public ErrorResponse(HttpStatus status,
-                         String errorMsg, String developerMsg) {
+    public ErrorResponse(HttpStatus status, String errorMsg, String developerMsg) {
         this.status = status;
         this.errorMsg = errorMsg;
         this.developerMsg = developerMsg;
     }
 }
+
+
 

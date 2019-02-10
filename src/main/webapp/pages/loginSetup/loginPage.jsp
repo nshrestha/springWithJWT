@@ -25,7 +25,13 @@
                              <%--<span ng-show="myForm.pwd.$error.required">Password required</span>--%>
                         <%--</span>--%>
                     </div>
-                    <div ng-show ="login.valid">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-default"
+                                ng-click="login.loginUser()">Login
+                        </button>
+                    </div>
+
+                    <div ng-if ="login.showErrorMessage">
                         <span style="color:red">{{login.errormsg}}</span>
                     </div>
                 </form>

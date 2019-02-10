@@ -1,43 +1,36 @@
-(function () {
-    angular.module("adminModule").controller("LoginController", LoginController);
+angular.module("adminModule").controller("LoginController", LoginController);
 
-    LoginController.$inject = ['$location', 'LoginService', 'HttpService', '$localStorage'];
+LoginController.$inject = ['$location', 'LoginService', 'HttpService', '$localStorage'];
 
-    function LoginController($location, LoginService, HttpService, $localStorage) {
-        var vm = this;
+function LoginController($location, LoginService, HttpService, $localStorage) {
+    var vm = this;
 
-        vm.loginData = {
-            userName: '',
-            password: ''
-        };
+    vm.loginData = {
+        userName: '',
+        password: ''
+    };
 
-        vm.errormsg = '';
+    vm.errormsg = '';
 
-        vm.valid = true;
+    vm.showErrorMessage = false;
 
-        vm.url = "/login";
+    vm.loginUser = loginUser;
+    //
+    // if (!($localStorage.adminObj == null)) {
+    //     $location.path("/adminPage");
+    // }
 
-        vm.loginUser = loginUser;
+    function loginUser() {
+        LoginService.login(vm.loginData).then(
+            (response) => {
+                $localStorage.tokenNo = response.token;
+                $localStorage.userId = response.id;
 
-        if (!($localStorage.adminObj == null)) {
-            $location.path("/adminPage");
-        }
-
-        function loginUser() {
-            LoginService.login(vm.loginData).then(
-                (response) => {
-                    $localStorage.adminObj = {
-                        name: response.name,
-                        tokenNo: response.tokenNo,
-                        userName: response.userName,
-                        status: response.status
-                    };
-                    $location.path("/adminPage");
-                },
-                (error) => {
-                    vm.valid = false;
-                    vm.errormsg = error.errorMsg;
-                });
-        }
+                $location.path("/userPage");
+            },
+            (error) => {
+                vm.showErrorMessage = true;
+                vm.errormsg = error.errorMsg;
+            });
     }
-})();
+}

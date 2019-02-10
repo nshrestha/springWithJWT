@@ -8,10 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link href="css/newsFeed.css">
-    <link href="css/comments.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
     <link href="css/login.css" rel="stylesheet">
     <link href="css/breadcrumb.css" rel="stylesheet">
     <link href="css/profile.css" rel="stylesheet">
+    <link href="css/materialdesignicons.css" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -47,8 +48,12 @@
 <script type="text/javascript" src="pages/loginSetup/service/LoginService.js"></script>
 <script type="text/javascript" src="pages/loginSetup/controller/LoginController.js"></script>
 
+<script type="text/javascript" src="pages/userSetup/service/UserSetupService.js"></script>
+<script type="text/javascript" src="pages/userSetup/controller/UserSetupController.js"></script>
+<script type="text/javascript" src="pages/userSetup/modal/UserDetailModalController.js"></script>
+
 <%--Services--%>
-<script src="<c:url value='/commons/HttpService.js' />"></script>
+<script type="text/javascript" src="pages/loginSetup/service/HttpService.js"></script>
 
 </body>
 </html>

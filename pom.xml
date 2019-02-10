@@ -10,6 +10,10 @@
 
     <packaging>war</packaging>
 
+    <properties>
+        <java-version>1.8</java-version>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -23,7 +27,7 @@
                             <maxIdleTime>30000</maxIdleTime>
                         </connector>
                     </connectors>
-                    <webAppSourceDirectory>${project.build.directory}/${pom.artifactId}-${pom.version}
+                    <webAppSourceDirectory>${project.build.directory}/${pom.artifactId}-${project.version}
                     </webAppSourceDirectory>
                     <contextPath>/</contextPath>
                 </configuration>
@@ -48,12 +52,6 @@
     </build>
 
     <dependencies>
-        <!--dependency>
-      <groupId>com.f1soft</groupId>
-      <artifactId>[the artifact id of the block to be mounted]</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency-->
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -230,6 +228,18 @@
             <groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
             <version>3.7.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-java8</artifactId>
+            <version>5.1.0.Final</version>
         </dependency>
 
     </dependencies>

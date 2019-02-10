@@ -13,14 +13,9 @@
             controller: 'LoginController as login',
             templateUrl: 'pages/loginSetup/loginPage.jsp'
         })
-            .when("/signup", {
-                controller: 'SignupController as signup',
-                templateUrl: 'modules/views/signupPage.jsp'
-            })
-            .when("/adminPage", {
-                controller: "AdminpageController as admin",
-                templateUrl: 'modules/views/adminPage.jsp',
-                label: 'Dashboard'
+            .when("/userPage", {
+                controller: "UserSetupController as userCtrl",
+                templateUrl: 'pages/userSetup/addUser.jsp',
             })
             .when("/adminPage/addAdmin", {
                 controller: "NewAdminController as newadmin",

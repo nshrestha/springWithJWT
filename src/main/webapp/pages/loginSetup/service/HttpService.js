@@ -38,8 +38,4 @@ function HttpService($http, $q, $localStorage, $location) {
                 );
         }
     }
-
-};
-
-
-//-------------- ###### [ENDS] HTTP SERVICE MAIN FUNCTION ###### -------------- //
+}
