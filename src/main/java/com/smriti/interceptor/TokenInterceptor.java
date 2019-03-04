@@ -1,20 +1,33 @@
 package com.smriti.interceptor;
 
+import com.smriti.exceptionHandler.UnauthorisedException;
+import com.smriti.utility.JWTTokenUtility;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.Objects;
 
 public class TokenInterceptor extends HandlerInterceptorAdapter {
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
-            throws Exception {
+            throws ServletException, IOException {
 
-//
-//            JWTTokenUtility.decodedJWT(request.getHeader())
+        if (request.getRequestURI().startsWith("/login")) {
+            return true;
+        }
 
-        return true;
+        String token = JWTTokenUtility.resolveToken(request);
+        if (!Objects.isNull(token) && JWTTokenUtility.validateToken(token)) {
+            return true;
+        } else {
+            throw new UnauthorisedException("Request not authorized, please contact system administrator.",
+                    "Unmatched XSRF token.");
+        }
     }
 
     @Override

@@ -11,6 +11,7 @@ import com.smriti.utility.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -56,5 +57,14 @@ public class UserServiceImpl implements UserService {
             throw new NoContentFoundException("No records found", "No records found");
 
         return UserUtils.convertToUserResponse(results);
+    }
+
+    public User getUserByUsername(String username) {
+        User user =  userRepository.getUserByUsername(username);
+
+        if (Objects.isNull(user))
+            throw new UsernameNotFoundException(String.format("No user found with username '%'.", username));
+        return user;
+
     }
 }
