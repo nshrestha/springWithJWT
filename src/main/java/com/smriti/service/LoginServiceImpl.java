@@ -35,7 +35,7 @@ public class LoginServiceImpl implements LoginService {
         User isUser = userService.getUserByUsername(loginRequestDTO.getUserName());
 
         checkIfUserExists.accept(isUser);
-//        validatePassword.accept(isUser, loginRequestDTO);
+        validatePassword.accept(isUser, loginRequestDTO);
 
         String jwtToken = JWTTokenUtility.generateJWTToken(isUser.getId());
 

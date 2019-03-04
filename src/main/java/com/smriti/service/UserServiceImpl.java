@@ -20,6 +20,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
 import java.util.Objects;
+import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 @Service
 @Transactional("transactionManager")
@@ -47,16 +49,17 @@ public class UserServiceImpl implements UserService {
     }
 
     @Cacheable(value = CacheNameConstants.CACHE_NAME)
+    //enables Spring Caching functionality
     @Override
     public List<UserDTO> fetchAllUsers() {
         Query query = entityManager.createNativeQuery
                 (UserQueryCreator.createQueryToFetchAllUsers());
-        List<java.lang.Object[]> results = query.getResultList();
+        List<Object[]> results = query.getResultList();
 
-        if (results.size() < 0)
-            throw new NoContentFoundException("No records found", "No records found");
+        validateResultSize.accept(results);
 
-        return UserUtils.convertToUserResponse(results);
+        return results.stream().map(UserUtils.convertToUserResponse)
+                .collect(Collectors.toList());
     }
 
     public User getUserByUsername(String username) {
@@ -65,6 +68,10 @@ public class UserServiceImpl implements UserService {
         if (Objects.isNull(user))
             throw new UsernameNotFoundException(String.format("No user found with username '%'.", username));
         return user;
-
     }
+
+    public Consumer<List<Object[]>> validateResultSize = (results)->{
+        if (results.size() < 0)
+            throw new NoContentFoundException("No records found", "No records found");
+    };
 }
