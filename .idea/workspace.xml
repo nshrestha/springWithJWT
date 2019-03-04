@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fc2b556-642e-4fbf-a819-185d15ae3757" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/javascript/angular.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springWithJWT.iml" afterPath="$PROJECT_DIR$/springWithJWT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/interceptor/TokenInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/interceptor/TokenInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/service/LoginServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/utility/JWTTokenUtility.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/JWTTokenUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/smriti/utility/LoginUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/smriti/utility/LoginUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js" afterPath="$PROJECT_DIR$/src/main/webapp/pages/loginSetup/controller/LoginController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js" afterPath="$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,13 +35,23 @@
       <file leaf-file-name="JWTTokenUtility.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/JWTTokenUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="-198">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2158#2159#0" expanded="true" />
                 <element signature="e#2225#2226#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSetupController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -391,7 +389,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="applic&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/resources/application.properties&#10;Htt&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/service/HttpService.js&#10;Use&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;Lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;pom.xm&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;angular.js&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/static/angular.min.js&#10;app&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/target/springWithJWT-1.0-SNAPSHOT/WEB-INF/classes/application.properties&#10;User&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;Us&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserService.java&#10;US&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;Logins&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/LoginServiceImpl.java&#10;da&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/DataSourceConfiguration.java&#10;appl&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/target/springWithJWT-1.0-SNAPSHOT/WEB-INF/classes/application.properties&#10;UserSer&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserService.java&#10;po&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;pom&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;De&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/modal/UserDetailModalController.js&#10;de&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/modal/userDetails.jsp&#10;add&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/addUser.jsp&#10;Data&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/DataSourceConfiguration.java&#10;Login&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;pom.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;index&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;WRK&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/constants/WebResourceKeyConstants.java&#10;UserC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;inde&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;user&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/addUser.jsp&#10;lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/loginPage.jsp&#10;Log&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;Loginse&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/LoginServiceImpl.java&#10;UserSe&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;WR&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/constants/WebResourceKeyConstants.java&#10;app.js&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;JWT&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/utility/JWTTokenUtility.java&#10;app.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;login&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/responseDTO/LoginResponseDTO.java&#10;LoginC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;toke&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/interceptor/TokenInterceptor.java&#10;ru&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/RuntimeException.java&#10;pom.x&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;JPA&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/JPAConfiguration.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;applic&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/resources/application.properties&#10;Htt&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/service/HttpService.js&#10;Use&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;Lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;pom.xm&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;angular.js&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/static/angular.min.js&#10;app&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/target/springWithJWT-1.0-SNAPSHOT/WEB-INF/classes/application.properties&#10;User&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;Us&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserService.java&#10;US&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;Logins&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/LoginServiceImpl.java&#10;da&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/DataSourceConfiguration.java&#10;appl&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/target/springWithJWT-1.0-SNAPSHOT/WEB-INF/classes/application.properties&#10;UserSer&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserService.java&#10;po&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;pom&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;De&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/modal/UserDetailModalController.js&#10;de&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/modal/userDetails.jsp&#10;add&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/addUser.jsp&#10;Data&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/DataSourceConfiguration.java&#10;Login&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;pom.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;index&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;WRK&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/constants/WebResourceKeyConstants.java&#10;UserC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/controller/UserSetupController.js&#10;inde&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/index.jsp&#10;user&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/userSetup/addUser.jsp&#10;lo&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/loginPage.jsp&#10;Log&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;Loginse&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/LoginServiceImpl.java&#10;UserSe&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/service/UserServiceImpl.java&#10;WR&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/constants/WebResourceKeyConstants.java&#10;app.js&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;JWT&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/utility/JWTTokenUtility.java&#10;app.&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/app.js&#10;login&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/responseDTO/LoginResponseDTO.java&#10;LoginC&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/webapp/pages/loginSetup/controller/LoginController.js&#10;toke&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/interceptor/TokenInterceptor.java&#10;ru&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/RuntimeException.java&#10;pom.x&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/pom.xml&#10;JPA&#9;FILE&#9;file:///home/smriti/Documents/springWithJWT/src/main/java/com/smriti/configuration/JPAConfiguration.java" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSHint" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -730,15 +728,16 @@
       <workItem from="1551154680101" duration="8000" />
       <workItem from="1551326731994" duration="265000" />
       <workItem from="1551327148366" duration="101000" />
-      <workItem from="1551675048369" duration="7829000" />
+      <workItem from="1551675048369" duration="7986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75116000" />
+    <option name="totallyTimeSpent" value="75273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="31" width="1533" height="869" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32018209" sideWeight="0.50237936" order="7" side_tool="true" content_ui="tabs" />
@@ -760,8 +759,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48181817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3348485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5409091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.016315432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55454546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19442557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970768" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1118,14 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/LoginUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1210,10 +1201,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/userSetup/controller/UserSetupController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smriti/utility/JWTTokenUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="-198">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2158#2159#0" expanded="true" />
