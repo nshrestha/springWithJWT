@@ -26,3 +26,6 @@ authentication progress.
 
 In short, the user sends a request to get a token passing his credentials. The server validates the credentials 
 and sends back a token. With every request, the user has to provide the token, and server will validate that token.
+
+https://www.codementor.io/hantsy/protect-rest-apis-with-spring-security-and-jwt-ms5uu3zd6
+https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-authentication-with-jwt-part-3-fafc9d7187e8
