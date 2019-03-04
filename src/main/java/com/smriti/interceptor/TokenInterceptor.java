@@ -17,6 +17,7 @@ public class TokenInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws ServletException, IOException {
 
+        //IGNORE JWT TOKEN AUTHENICATION FOR LOGIN API
         if (request.getRequestURI().startsWith("/login")) {
             return true;
         }
@@ -26,7 +27,7 @@ public class TokenInterceptor extends HandlerInterceptorAdapter {
             return true;
         } else {
             throw new UnauthorisedException("Request not authorized, please contact system administrator.",
-                    "Unmatched XSRF token.");
+                    "Unmatched JWT token.");
         }
     }
 
